@@ -14,11 +14,11 @@
 
 h1 {
     height: auto;
-    background: #00380f;
+    background: rgb(7, 3, 58);
     width: auto;
     border-radius: 15px;
     margin: 20px;
-    color: rgb(17, 233, 17);
+    color: rgb(137, 200, 236);
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("7.jpg");
+    background: url("Dragon_ball_original_background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -93,16 +93,15 @@ header ul li {
 header ul li a {
     text-decoration: none;
     font-weight: 700;
-    /* color: #8a2435; */
-    color: rgb(1, 32, 10);
+    color: rgb(7, 3, 58);
     padding: 8px 15px;
     border-radius: 25px;
 
 }
 
 header ul li a:hover {
-    background: rgb(1, 32, 10);
-    color: rgb(17, 233, 17);
+    background: rgb(7, 3, 58);
+    color: rgb(137, 200, 236);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 
 }
@@ -167,8 +166,8 @@ header ul li a:hover {
 .content .watchNowAnchor {
     display: inline-block;
     padding: 15px 30px;
-    background: rgb(5, 39, 1);
-    color: #0bff18;
+    background: rgb(7, 3, 58);
+    color: rgb(137, 200, 236);
     /* margin-top: 20px; */
     border-radius: 30px;
     font-size: 1.1em;
@@ -216,7 +215,7 @@ header ul li a:hover {
     text-decoration: none;
     width: 50px;
     height: 50px;
-    background-color: #1692039c;
+    background: rgba(137, 200, 236, 0.643);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +238,7 @@ header ul li a:hover {
     position: absolute;
     bottom: 10px;
     left: 67px;
-    color: #025006;
+    color: rgb(10, 6, 128);
 }
 
 .iframe {
@@ -267,22 +266,13 @@ header ul li a:hover {
 }
 
 button {
-    display: inline-block;
-    position: relative;
-    top: 35px;
-    padding: 9px 0px;
-    background: rgb(5, 39, 1);
-    color: #0bff18;
-    margin-top: 4px;
-    border-radius: 7px;
-    font-size: 1.1em;
-    font-weight: 500;
-    text-decoration: none;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 60px;
     height: 45px;
-    text-align: center;
+    color: #0bff18;
+    background-color: rgb(5, 39, 1);
+    border-radius: 7px;
     cursor: pointer;
+
 }
 
 .content .episode_No {
@@ -290,8 +280,8 @@ button {
     position: relative;
     top: 35px;
     padding: 9px 0px;
-    background: rgb(5, 39, 1);
-    color: #0bff18;
+    background: rgb(6, 4, 66);
+    color: #7ddbe8;
     margin-top: 4px;
     border-radius: 7px;
     font-size: 1.1em;
@@ -307,8 +297,8 @@ button {
 .content .batch_number {
     display: inline-block;
     padding: 9px 6px;
-    background: rgb(5, 39, 1);
-    color: #0bff18;
+    background: rgb(6, 4, 66);
+    color: #7ddbe8;
     margin-top: 4px;
     border-radius: 7px;
     font-size: 1.1em;
@@ -323,8 +313,8 @@ button {
 
 .one_piece {
     display: inline-block;
-    background: #00380f;
-    color: #0bff18;
+    background: rgb(3, 1, 40);
+    color: #7ddbe8;
     padding: 10px 15px;
     border-radius: 7px;
     margin-top: 0.625em;
@@ -419,20 +409,13 @@ button {
         bottom: initial;
         left: initial;
         width: 100%;
-        color: #025006;
+        color: rgb(10, 6, 128);
         text-align: center;
         margin-top: 20px;
     }
-
-
-
 }
 
 @media (max-width:600px) {
-    .container {
-        overflow: hidden;
-    }
-
     .content h2 {
         font-size: 1.5em;
         color: #00380f;
@@ -462,7 +445,6 @@ button {
         position: relative;
         left: 100px;
         width: 110%;
-
     }
 
     .listOfAnime {
