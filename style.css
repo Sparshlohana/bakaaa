@@ -429,6 +429,7 @@ button {
 }
 
 @media (max-width:600px) {
+
     .content h2 {
         font-size: 1.5em;
         color: #00380f;
