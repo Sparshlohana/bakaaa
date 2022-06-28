@@ -429,10 +429,6 @@ button {
 }
 
 @media (max-width:600px) {
-    .container {
-        overflow: hidden;
-    }
-
     .content h2 {
         font-size: 1.5em;
         color: #00380f;
