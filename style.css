@@ -524,7 +524,9 @@ button {
         height: auto;
     }
 
-
+    .content {
+        text-align: center;
+    }
 
     .title {
         height: auto;
