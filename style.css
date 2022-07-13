@@ -15,9 +15,9 @@
 h1 {
     height: auto;
     background: #00380f;
-    width: auto;
+    width: 15vw;
     border-radius: 15px;
-    margin: 20px;
+    margin: 20px auto;
     color: rgb(17, 233, 17);
     text-align: center;
 }
@@ -195,7 +195,7 @@ header ul li a:hover {
 }
 
 .onePieceAnime {
-    transform: translateX(-100px);
+    /* transform: translateX(-100px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     backdrop-filter: blur(1px);
@@ -205,22 +205,30 @@ header ul li a:hover {
     padding: 40px;
     padding-left: 110px;
     display: block;
-    margin: 0px 0px 20px 20px;
+    margin: 0px 0px 20px 20px; */
+    transform: translateX(-100px);
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    /* backdrop-filter: blur(1px); */
+    border: 1px solid rgba(255, 225, 255, 0.25);
+    border-top: 1px solid rgba(255, 225, 255, 0.5);
+    border-left: 1px solid rgba(255, 225, 255, 0.5);
+    width: 32vw;
+    margin: 0 0 20px 27px;
+    text-align: center;
+    height: 78vh;
 }
 
 .content .watchNowAnchor {
-    display: inline-block;
     padding: 15px 30px;
     background: rgb(5, 39, 1);
     color: #0bff18;
-    /* margin-top: 20px; */
     border-radius: 30px;
     font-size: 1.1em;
     font-weight: 500;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-left: 50px;
 }
 
 .imgbx img {
@@ -348,6 +356,12 @@ button {
     text-align: center;
     cursor: pointer;
     animation: smoothscroll1 1s;
+}
+
+.content .episode_No:hover {
+    color: #0bff18;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(2, 18, 0, 0.949);
 }
 
 @keyframes smoothscroll1 {
@@ -516,13 +530,14 @@ button {
 
     }
 
+    /* 
     .listOfAnime {
         margin: 15px 0px 0px 0px;
         position: relative;
         right: 93px;
         width: 220px;
         height: auto;
-    }
+    } */
 
     .content {
         text-align: center;
@@ -530,19 +545,12 @@ button {
 
     .title {
         height: auto;
-        text-align: center;
         width: 235px;
-        position: relative;
-        right: 120px;
         border-radius: 25px;
         padding: 3px;
     }
 
     .content .watchNowAnchor {
         font-size: 1.3em;
-        position: relative;
-        right: 120%;
-        width: 200px;
-        height: 60px;
     }
 }
