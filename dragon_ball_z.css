@@ -33,7 +33,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("dragonBallZBackground.jpg");
+    background: url("Images/dragonBallZBackground.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
