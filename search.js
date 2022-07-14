@@ -13,7 +13,7 @@ const allUserKeywords = [];
 
 
 const onePiece = new KeyWords("#onePieceSearch", "watch now.html", ["one piece", "zoro", "luffy"]);
-const dragonBall = new KeyWords("#dragonBallSearch", "watch now.html", ["dragon ball", "dragon ball z", "dragon ball super", "goku", "vegeta"]);
+const dragonBall = new KeyWords("#dragonBallSearch", "watch now.html", ["dragon ball", "dragon ball z", "dragon", "dragon ball super", "goku", "vegeta"]);
 const jujutsuKaisen = new KeyWords("#jujutsuKaisenSearch", "watch now.html", ["jujutsu kaisen", "jujutsu", "itadori", "gogou", "gogo", "gogou satoru", "satoru"]);
 
 
