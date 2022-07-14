@@ -14,7 +14,7 @@ const allUserKeywords = [];
 
 const onePiece = new KeyWords("#onePieceSearch", "watch now.html", ["one piece", "zoro", "luffy"]);
 const dragonBall = new KeyWords("#dragonBallSearch", "watch now.html", ["dragon ball", "dragon ball z", "dragon ball super", "goku", "vegeta"]);
-const jujutsuKaisen = new KeyWords("#jujutsuKaisenSearch", "watch now.html", ["jujutsu kaisen", "itadori", "gogou", "gogo", "gogou satoru", "satoru"]);
+const jujutsuKaisen = new KeyWords("#jujutsuKaisenSearch", "watch now.html", ["jujutsu kaisen", "jujutsu", "itadori", "gogou", "gogo", "gogou satoru", "satoru"]);
 
 
 allUserKeywords.push(onePiece);
@@ -25,7 +25,7 @@ document.addEventListener("keypress", function (e) {
     if (e.key == "Enter") {
         for (let key of allUserKeywords) {
             for (let i of key.keyWords)
-                if (inputValue.value.toLowerCase() == i) {
+                if (inputValue.value.toLowerCase().trim() == i) {
                     console.log(i);
                     window.location.href = key.page + key.id;
                 }
@@ -37,7 +37,7 @@ document.addEventListener("keypress", function (e) {
 searchBtn.addEventListener("click", function () {
     for (let key of allUserKeywords) {
         for (let i of key.keyWords)
-            if (inputValue.value.toLowerCase() == i) {
+            if (inputValue.value.toLowerCase().trim() == i) {
                 console.log(i);
                 window.location.href = key.page + key.id;
             }
