@@ -578,8 +578,45 @@ header ul li a:hover {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:400px) {
+    header ul {
+        margin-top: 10px;
+    }
+
+
     #search {
-        width: 60%;
+        width: 70%;
+    }
+
+    .container #searchBox #search {
+        width: 100%;
+    }
+
+
+    #searchBox #searchContent {
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media (max-width:350px) {
+    header ul {
+        margin-top: 10px;
+        width: 130%;
+    }
+
+
+    #search {
+        width: 70%;
+    }
+
+    .container #searchBox #search {
+        width: 100%;
+    }
+
+
+    #searchBox #searchContent {
+        position: relative;
+        left: 10px;
     }
 }

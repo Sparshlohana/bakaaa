@@ -1,4 +1,4 @@
-.notification{
+.notification {
     position: fixed;
     top: 0;
     left: 50%;
@@ -12,4 +12,74 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #00380f;
+}
+
+#preLoaderImage {
+    width: 7%;
+}
+
+#notifya {
+    text-decoration: none;
+    color: #04180a;
+    margin-left: 10px;
+    box-shadow: 0 5px 18px rgba(10, 27, 14, 0.634);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+@media (max-width:1200px) {
+    .notification {
+        width: 50%;
+        /* font-size: 13px; */
+        padding-left: 10px;
+    }
+
+    #notifya {
+        width: auto;
+        height: 65%;
+    }
+}
+
+@media (max-width:900px) {
+    .notification {
+        width: 70%;
+        /* font-size: 13px; */
+        padding-left: 10px;
+    }
+
+    #notifya {
+        width: auto;
+        height: 65%;
+    }
+}
+
+@media (max-width:600px) {
+    .notification {
+        width: 70%;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+
+    #notifya {
+        width: 40%;
+        height: 65%;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .notification {
+        width: 70%;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+
+    #notifya {
+        width: 50%;
+        height: 50%;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
 }
