@@ -33,7 +33,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("Images/dragonBallZBackground.jpg");
+    background: url("../Images/jujutsuKaisenBackground.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -93,15 +93,15 @@ header ul li {
 header ul li a {
     text-decoration: none;
     font-weight: 700;
-    color: rgb(255, 106, 0);
+    color: rgb(19, 13, 47);
     padding: 8px 15px;
     border-radius: 25px;
 
 }
 
 header ul li a:hover {
-    background: rgb(255, 123, 0);
-    color: #eeeb8c;
+    background: rgb(19, 13, 47);
+    color: rgb(226, 165, 247);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 
 }
@@ -215,7 +215,7 @@ header ul li a:hover {
     text-decoration: none;
     width: 50px;
     height: 50px;
-    background: rgba(252, 239, 4, 0.643);
+    background: rgba(230, 172, 251, 0.796);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,7 +238,7 @@ header ul li a:hover {
     position: absolute;
     bottom: 10px;
     left: 67px;
-    color: rgb(255, 106, 0);
+    color: rgb(31, 25, 68);
 }
 
 .iframe {
@@ -280,8 +280,8 @@ button {
     position: relative;
     top: 35px;
     padding: 9px 0px;
-    background: rgb(255, 123, 0);
-    color: #eeeb8c;
+    background: rgb(19, 13, 47);
+    color: rgb(226, 165, 247);
     margin-top: 4px;
     border-radius: 7px;
     font-size: 1.1em;
@@ -297,8 +297,8 @@ button {
 .content .batch_number {
     display: inline-block;
     padding: 9px 6px;
-    background: rgb(255, 149, 0);
-    color: #eeeb8c;
+    background: rgb(31, 25, 68);
+    color: rgb(226, 165, 247);
     margin-top: 4px;
     border-radius: 7px;
     font-size: 1.1em;
@@ -313,8 +313,8 @@ button {
 
 .one_piece {
     display: inline-block;
-    background: rgb(255, 123, 0);
-    color: #eeeb8c;
+    background: rgb(19, 13, 47);
+    color: rgb(226, 165, 247);
     padding: 10px 15px;
     border-radius: 7px;
     margin-top: 0.625em;
@@ -454,8 +454,6 @@ button {
         width: 220px;
         height: auto;
     }
-
-
 
     .title {
         height: auto;
