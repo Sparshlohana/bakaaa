@@ -403,26 +403,94 @@ var linksOfAnime = [
         id: "no-101",
         value: "https://drive.google.com/file/d/1krSGHUppCBnzvwvkjUC17z6Dx97hnnOW/preview"
     },
+    {
+        id: "no-102",
+        value: "https://drive.google.com/file/d/1krhH6yv_-qpjFgO_S1YlRNkiiCTMxDKd/preview"
+    },
+    {
+        id: "no-103",
+        value: "https://drive.google.com/file/d/1kvg9a4WHQVNgRk5JAlO4EaEU5H8ibZCI/preview"
+    },
+    {
+        id: "no-104",
+        value: "https://drive.google.com/file/d/1l3BgP_L_3yTFuHMd1TElhOnIihdXHw1n/preview"
+    },
+    {
+        id: "no-105",
+        value: "https://drive.google.com/file/d/1lC8AIQlG42cSNbXKtdmg-C_jWjwBUDpK/preview"
+    },
+    {
+        id: "no-106",
+        value: "https://drive.google.com/file/d/1lCRXwJGKoRSubOzkoyaH679_qqrvkGXZ/preview"
+    },
+    {
+        id: "no-107",
+        value: "https://drive.google.com/file/d/1lDTKWBcTEybjJ0K97kvtOjBW-DTy6AP4/preview"
+    },
+    {
+        id: "no-108",
+        value: "https://drive.google.com/file/d/1lEqCm5GbZlxKhbtPrPniEQloXY30SdUQ/preview"
+    },
+    {
+        id: "no-109",
+        value: "https://drive.google.com/file/d/1lHBaaH5BJYKgzZdC0i-JC7a-MIBLLL9a/preview"
+    },
+    {
+        id: "no-110",
+        value: "https://drive.google.com/file/d/1lKlX6TpsGK_1iV-RFK4OT1-1xTp0gvKC/preview"
+    },
+    {
+        id: "no-111",
+        value: "https://drive.google.com/file/d/1lQfWsm32jTLyxHcfNZRGHVzgjUEpDPvZ/preview"
+    },
+    {
+        id: "no-112",
+        value: "https://drive.google.com/file/d/1lRY1nmXw6teO7af2vUQxPFg6h2FEGoKr/preview"
+    },
+    {
+        id: "no-113",
+        value: "https://drive.google.com/file/d/1lYK8C73nXBhX3cUcwxii71Y-iNo7QrLH/preview"
+    },
+    {
+        id: "no-114",
+        value: "https://drive.google.com/file/d/1l_WXL3wmf_QCUcSdTCU0nNaEMDSeuS1s/preview"
+    },
+    {
+        id: "no-115",
+        value: "https://drive.google.com/file/d/1llSAYMM0pudmiECi8zoyuAo6eVHeZ_U3/preview"
+    },
+    {
+        id: "no-116",
+        value: "https://drive.google.com/file/d/1lyjVXluH5xME8mNNhPA3wYKSvdCuFghI/preview"
+    },
+    {
+        id: "no-117",
+        value: "https://drive.google.com/file/d/1m5VP2DBCT86JQj4OUzMVSzmYXtJ_Kl9Z/preview"
+    },
+    {
+        id: "no-118",
+        value: "https://drive.google.com/file/d/1m7PiOKsvqdGUcpChkXLzlwiv5DJbun2m/preview"
+    },
+    {
+        id: "no-119",
+        value: "https://drive.google.com/file/d/1m7NtA_slhrPNH0FC99UHXlGueQApKxpy/preview"
+    },
+    {
+        id: "no-120",
+        value: "https://drive.google.com/file/d/1m9WgvXLjtlsxqXz70n8Qgn_x4hWubGYd/preview"
+    }
 ];
+
 
 
 
 for (let i = 0; i < linksOfAnime.length; i++) {
     let btnLink = document.getElementById("no-" + (i + 1));
     console.log(btnLink);
-    // console.log(links[i].id);
     btnLink.addEventListener("click", function () {
         if (btnLink.id == linksOfAnime[i].id) {
-            console.log(btnLink.id);
             document.getElementById("One_Piece_ep1").src = linksOfAnime[i].value;
+            // console.log(i);
         }
     })
-}
-
-function changeValue(sum) {
-    for (let i = 0; i < sum; i++) {
-        let btnPage = document.querySelectorAll(".episode_No");
-        btnPage[i].setAttribute("id", ("no-" + (i + 1 + sum)));
-        btnPage[i].innerHTML = i + sum + 1;
-    }
 }
