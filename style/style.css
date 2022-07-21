@@ -473,11 +473,19 @@ header ul li a:hover {
         margin-bottom: 50px;
     }
 
+<<<<<<< HEAD
 
     .content a {
         font-size: 1em;
         padding: 10px 20px;
     }
+=======
+    /* 
+        .content a {
+            font-size: 1em;
+            padding: 10px 20px;
+        } */
+>>>>>>> 820565a94941b1dad55232c9075c21c47ff1a3a3
 
     @keyframes animate {
 
