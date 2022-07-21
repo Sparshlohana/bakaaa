@@ -473,6 +473,7 @@ header ul li a:hover {
         margin-bottom: 50px;
     }
 
+
     .content a {
         font-size: 1em;
         padding: 10px 20px;
@@ -510,9 +511,8 @@ header ul li a:hover {
         margin-top: 20px;
     }
 
-
-
 }
+
 
 @media (max-width:600px) {
 
@@ -546,6 +546,10 @@ header ul li a:hover {
         left: 100px;
         width: 110%;
 
+    }
+
+    .iframe {
+        max-width: 100%;
     }
 
     /* 
