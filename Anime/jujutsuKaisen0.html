@@ -12,7 +12,7 @@
           type="image/x-icon">
     <title>Watch Jujutsu Kaisen 0 online</title>
     <link rel="stylesheet"
-          href="../style/jujutsuKaisen.css">
+          href="../style/jujutsuKaisen0.css">
 </head>
 <!-- style="width: 500px; height: 300px; border-radius: 10px;" -->
 
@@ -40,10 +40,10 @@
                 <div class="button">
 
                     <iframe class="iframe"
-                            id="Dragon_ball_z_ep1"
+                            id="jujutsuKaisenOp"
                             allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture;"
                             style="width: 500px; height: 300px; border-radius: 10px;"
-                            src="https://drive.google.com/file/d/13dslTJZi55q0qoumXbVt0iEfDaLhgqTm/preview"
+                            src="https://drive.google.com/file/d/1TsBO9SkfcVkLLYWXjQ_hnjZf3ypKk8zl/preview"
                             width="100%"
                             height="100%"
                             frameborder="0"
@@ -52,7 +52,17 @@
                             allowfullscreen="true"></iframe>
 
 
+                    <a class="episode_No"
+                       id="no-1">1080p 727MB</a>
 
+                    <a class="episode_No"
+                       id="no-2">1080p 72fps 10.43GB</a>
+
+                    <a class="episode_No"
+                       id="no-3">1080p True HD 16.83GB</a>
+
+                    <a class="episode_No"
+                       id="no-4">1080p REMUX 27.81 GB</a>
 
                 </div>
                 <!-- <br><br><br>
@@ -91,6 +101,43 @@
         </div>
 
     </section>
+
+
+    <script>
+        var linksOfAnime = [
+            {
+                id: "no-1",
+                value: "https://drive.google.com/file/d/1TsBO9SkfcVkLLYWXjQ_hnjZf3ypKk8zl/preview"
+            },
+            {
+                id: "no-2",
+                value: "https://drive.google.com/file/d/1X8rdRBzj6O7c8iq6ZF2J3m_iY6vlOX5q/preview"
+            },
+            {
+                id: "no-3",
+                value: "https://drive.google.com/file/d/1M1okYttnBFaezrh9H7gDQCCo9czeRTr4/preview"
+            },
+            {
+                id: "no-4",
+                value: "https://drive.google.com/file/d/13dslTJZi55q0qoumXbVt0iEfDaLhgqTm/preview"
+            }
+        ];
+
+
+        showContent(0)
+        function showContent(value) {
+            for (let i = value; i < linksOfAnime.length; i++) {
+                let btnLink = document.getElementById("no-" + (i + 1));
+                console.log(btnLink);
+                btnLink.addEventListener("click", function () {
+                    if (btnLink.id == linksOfAnime[i].id) {
+                        document.getElementById("jujutsuKaisenOp").src = linksOfAnime[i].value;
+                        console.log(i);
+                    }
+                })
+            }
+        }
+
 
     </script>
 </body>
